@@ -1,0 +1,4 @@
+# **How to create a virtual maschine**
+
+Firtsly we need to download virtual box from here:
+[https://www.virtualbox.org/wiki/Downloads]
