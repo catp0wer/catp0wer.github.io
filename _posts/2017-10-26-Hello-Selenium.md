@@ -43,7 +43,6 @@ Go to `Advanced` -> `Environmental Variables` -> `Path` -> `Edit` -> Add the pat
 
 ![_config.yml]({{ site.baseurl }}/images/Selenium-weather19.JPG)
 
-![_config.yml]({{ site.baseurl }}/images/Selenium-weather21.JPG)
 
 
 ##### IntelliJ IDEA IDE
