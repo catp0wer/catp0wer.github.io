@@ -41,7 +41,7 @@ Go to `Advanced` -> `Environmental Variables` -> `Path` -> `Edit` -> Add the pat
 
 ![_config.yml]({{ site.baseurl }}/images/Seleniu-weather18.JPG)
 
-![_config.yml]({{ site.baseurl }}/images/Selenium-weather19.JPG){:height="250px" width="250px"}
+![_config.yml]({{ site.baseurl }}/images/Selenium-weather19.JPG){:height="300px" width="300px"}
 
 
 
