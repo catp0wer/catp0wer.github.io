@@ -19,7 +19,7 @@ This tutorial assumes you use Firefox, but it can be easily adapted to other bro
 ##### Selenium
 [Download Selenium for Java](http://www.seleniumhq.org/download/)
 
-![_config.yml]({{ site.baseurl }}/images/Selenium-weather1.PNG){:height="72px" width="144px"}
+![_config.yml]({{ site.baseurl }}/images/Selenium-weather1.PNG){:height="216px" width="432px"}
 
 
 
