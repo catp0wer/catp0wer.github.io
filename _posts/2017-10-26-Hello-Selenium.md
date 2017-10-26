@@ -94,7 +94,7 @@ This is how an empty main class looks like – the entry point of every program:
 
 Now we need to add `Selenium libs` to be able to use it, go to `File` -> `Project Structure` -> `Modules` -> `Dependencies tab` -> Click on `Plus green` button -> Select `1 JARS or directories` -> Go to location where Selenium is downloaded and add all `.jar` files.
 
-![_config.yml]({{ site.baseurl }}/images/Selenium-weather7.PNG){:height="500px" width="400px"}
+![_config.yml]({{ site.baseurl }}/images/Selenium-weather7.PNG){:height="500px" width="500px"}
 
 ##### Write the code
 
@@ -109,14 +109,14 @@ WebDriver driver = new FirefoxDriver();
 You will notice that `WebDriver` and `FirefoxDriver` will be in *red*. 
 
 
-![_config.yml]({{ site.baseurl }}/images/Selenium-weather8.JPG)
+![_config.yml]({{ site.baseurl }}/images/Selenium-weather8.JPG){:height="300px" width="350px"}
 
 We need to import some classes. For this just right-click on `WebDriver` and press `Alt+Enter` and the class will be automatically imported.
 Do the same for `FirefoxDriver`.
 
-![_config.yml]({{ site.baseurl }}/images/Selenium-weather9.JPG)
+![_config.yml]({{ site.baseurl }}/images/Selenium-weather9.JPG){:height="200px" width="300px"}
 
-![_config.yml]({{ site.baseurl }}/images/Selenium-weather10.JPG)
+![_config.yml]({{ site.baseurl }}/images/Selenium-weather10.JPG){:height="200px" width="300px"}
 
 ###### Navigate to a Web site
 To navigate to a web site we use the `GET` method in which we specify the URL we need:
