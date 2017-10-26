@@ -41,7 +41,7 @@ On Windows systems you can change the system path by right-clicking `My Computer
 
 ![_config.yml]({{ site.baseurl }}/images/Selenium-weather17.JPG)
 
-![_config.yml]({{ site.baseurl }}/images/Selenium-weather18.JPG)
+![_config.yml]({{ site.baseurl }}/images/Seleniu-weather18.JPG)
 
 ![_config.yml]({{ site.baseurl }}/images/Selenium-weather19.JPG)
 
@@ -138,11 +138,11 @@ To do so right-click and select `Inspect element`.
 Click on the first icon and click on the search field.
 You can see that the `HTML` code which represents this field is highlighted.
 
-![_config.yml]({{ site.baseurl }}/images/Selenium-weather12.PNG)
+![_config.yml]({{ site.baseurl }}/images/Selenium-weather12.JPG)
 
 In the code which is highlighted we can extract the `name` or the `id` which identifies this field:
 
-![_config.yml]({{ site.baseurl }}/images/Selenium-weather13.PNG)
+![_config.yml]({{ site.baseurl }}/images/Selenium-weather13.JPG)
 
 I choose to use the `name`, because it is shorter.
 To find the element we use the `findElement` method specifying by which `attribute` it should search.
