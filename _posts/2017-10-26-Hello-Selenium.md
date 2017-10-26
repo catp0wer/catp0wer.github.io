@@ -109,7 +109,7 @@ WebDriver driver = new FirefoxDriver();
 You will notice that `WebDriver` and `FirefoxDriver` will be in *red*. 
 
 
-![_config.yml]({{ site.baseurl }}/images/Selenium-weather8.JPG){:height="300px" width="500px"}
+![_config.yml]({{ site.baseurl }}/images/Selenium-weather8.JPG){:height="300px" width="600px"}
 
 We need to import some classes. For this just right-click on `WebDriver` and press `Alt+Enter` and the class will be automatically imported.
 Do the same for `FirefoxDriver`.
@@ -172,7 +172,7 @@ To run the program right-click on `Main class` and select `Run ‘Main’`.
 Or you can go to the `Run` tab in the IDE and select `Run ‘Main’`.
 
 
-![_config.yml]({{ site.baseurl }}/images/Selenium-weather15.PNG){:height="500px" width="700px"}
+![_config.yml]({{ site.baseurl }}/images/Selenium-weather15.PNG){:height="400px" width="600px"}
 
 ![_config.yml]({{ site.baseurl }}/images/Selenium-weather16.PNG)
 
