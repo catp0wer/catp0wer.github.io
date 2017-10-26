@@ -22,7 +22,6 @@ This tutorial assumes you use Firefox, but it can be easily adapted to other bro
 ![_config.yml]({{ site.baseurl }}/images/Selenium-weather1.PNG)
 
 
-Screenshot
 
 Put it in a location you want Selenium to be and remember the location. The path will be necessary when creating our project in IDE.
 
@@ -40,13 +39,13 @@ Go to `Advanced` -> `Environmental Variables` -> `Path` -> Paste the path where 
 
 On Windows systems you can change the system path by right-clicking `My Computer` and choosing `Properties`. In the dialogue that appears, navigate `Advanced` -> `Environmental Variables `-> `Path`
 
-![_config.yml]({{ site.baseurl }}/images/Selenium-weather17.jpg)
+![_config.yml]({{ site.baseurl }}/images/Selenium-weather17.JPG)
 
-![_config.yml]({{ site.baseurl }}/images/Selenium-weather18.jpg)
+![_config.yml]({{ site.baseurl }}/images/Selenium-weather18.JPG)
 
-![_config.yml]({{ site.baseurl }}/images/Selenium-weather19.jpg)
+![_config.yml]({{ site.baseurl }}/images/Selenium-weather19.JPG)
 
-![_config.yml]({{ site.baseurl }}/images/Selenium-waether20.jpg)
+![_config.yml]({{ site.baseurl }}/images/Selenium-waether20.JPG)
 
 
 ##### IntelliJ IDEA IDE
@@ -57,6 +56,7 @@ On Windows systems you can change the system path by right-clicking `My Computer
 
 
 It is recommended to have the last versions of all these components above for better compatibility.
+
 
 
 
@@ -78,22 +78,25 @@ There are a few steps we need to do to create our program:
 ##### Create a project in IDE 
 Click on `File tab` -> `New` -> `Project`
 
-![_config.yml]({{ site.baseurl }}/images/Selenium-weather2.png)
+![_config.yml]({{ site.baseurl }}/images/Selenium-weather2.PNG)
 
 Don’t select anything in Additional Libraries and Frameworks.
 
-Screenshot
-Screenshot
+![_config.yml]({{ site.baseurl }}/images/Selenium-weather3.PNG)
+
+![_config.yml]({{ site.baseurl }}/images/Selenium-weather4.PNG)
+
 Enter the name of the project and project location.
-Screenshot
+
+![_config.yml]({{ site.baseurl }}/images/Selenium-weather5.PNG)
 
 This is how an empty main class looks like – the entry point of every program.
 
-Screenshot
+![_config.yml]({{ site.baseurl }}/images/Selenium-weather6.JPG)
 
 Now we need to add `Selenium libs` to be able to use it -> Go to `File` -> `Project Structure` -> `Modules` -> `Dependencies tab` -> Click on `Plus green` button -> Select `1 JARS or directories` -> Go to location where the Selenium is downloaded and add all `.jar` files.
 
-Screenshot
+![_config.yml]({{ site.baseurl }}/images/Selenium-weather7.PNG)
 
 ##### Write the code
 
@@ -108,13 +111,14 @@ WebDriver driver = new FirefoxDriver();
 You will notice that `WebDriver` and `FirefoxDriver` will be in *red*. 
 
 
-
-Screenshot
+![_config.yml]({{ site.baseurl }}/images/Selenium-weather8.JPG)
 
 We need to import some classes. For this just right-click on `WebDriver` and press `Alt+Enter` and the class will be automatically imported.
 Do the same for `FirefoxDriver`.
 
-Screenshot
+![_config.yml]({{ site.baseurl }}/images/Selenium-weather9.JPG)
+
+![_config.yml]({{ site.baseurl }}/images/Selenium-weather10.JPG)
 
 ###### Navigate to a Web site
 To navigate to a web site we use the get method in which we specify the URL we need:
@@ -129,16 +133,16 @@ To find an element on the page in order to fill it in or to click on it, you nee
 To do so right-click and select `Inspect element`.
 
 
-Screenshot
+![_config.yml]({{ site.baseurl }}/images/Selenium-weather11.PNG)
 
 Click on the first icon and click on the search field.
 You can see that the `HTML` code which represents this field is highlighted.
 
-Screenshot
+![_config.yml]({{ site.baseurl }}/images/Selenium-weather12.PNG)
 
 In the code which is highlighted we can extract the `name` or the `id` which identifies this field:
 
-Screenshot
+![_config.yml]({{ site.baseurl }}/images/Selenium-weather13.PNG)
 
 I choose to use the `name`, because it is shorter.
 To find the element we use the `findElement` method specifying by which `attribute` it should search.
@@ -149,7 +153,7 @@ driver.findElement(By.name("q")).sendKeys("weather in Chisinau");
 
 To press the `Enter` key we also need to inspect button `Google Search` (the same procedure as above).
 
-Screenshot
+![_config.yml]({{ site.baseurl }}/images/Selenium-weather14.PNG)
 
 
 To click on it we use the ```click``` method :
@@ -170,7 +174,9 @@ To run the program right-click on `Main class` and select `Run ‘Main’`.
 Or you can go to Run tab in the IDE and select `Run ‘Main’`.
 
 
-Screenshot
+![_config.yml]({{ site.baseurl }}/images/Selenium-weather15.PNG)
+
+![_config.yml]({{ site.baseurl }}/images/Selenium-weather16.PNG)
 
 ##### Summary
 This program is the simplest one which can serve as a base for more complicated scenarios. 
