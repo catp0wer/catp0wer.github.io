@@ -43,7 +43,7 @@ Go to `Advanced` -> `Environmental Variables` -> `Path` -> `Edit` -> Add the pat
 
 ![_config.yml]({{ site.baseurl }}/images/Selenium-weather19.JPG)
 
-![_config.yml]({{ site.baseurl }}/images/Selenium-waether21.JPG)
+![_config.yml]({{ site.baseurl }}/images/Selenium-weather21.JPG)
 
 
 ##### IntelliJ IDEA IDE
@@ -53,7 +53,7 @@ Go to `Advanced` -> `Environmental Variables` -> `Path` -> `Edit` -> Add the pat
 [Download Firefox](https://www.mozilla.org/en-US/firefox/new/)
 
 
-It is recommended to have the last versions of all these components above for better compatibility. However, this tutorial was tested with: ...
+It is recommended to have the last versions of all these components above for better compatibility. However, this tutorial was tested with:
 
  * Firefox 56.0.1
  * Geckodriver - v0.19.0-win64
