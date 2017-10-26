@@ -4,7 +4,7 @@ title: The simplest Selenium application from scratch
 ---
 
 
-Here I want to share my first Selenium application which launches a browser, opens a web-page and looks up the weather in a particular location by typing some text in the search box and clicking “Search”. 
+Here I want to share my first Selenium application which launches a browser, opens a web-page and looks up the weather in a particular location by typing some text in the search box and clicking "Search". 
 
 The following components are required: 
 
@@ -36,7 +36,7 @@ Go to `Advanced` -> `Environmental Variables` -> `Path` -> Paste the path where 
 
 
 
-On Windows systems you can change the system path by right-clicking `My Computer` and choosing `Properties`. In the dialogue that appears, navigate `Advanced` ? `Environmental Variables `? `Path`
+On Windows systems you can change the system path by right-clicking `My Computer` and choosing `Properties`. In the dialogue that appears, navigate `Advanced` -> `Environmental Variables `-> `Path`
 
 ##### IntelliJ IDEA IDE
 Download the community edition of IntelliJ IDEA IDE, which is free, from here and install it:
