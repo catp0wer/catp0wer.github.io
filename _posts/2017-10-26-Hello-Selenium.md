@@ -58,10 +58,10 @@ The application opens the Firefox, navigates to https://www.google.com and searc
 There are a few steps we need to do to create our program: 
 1.	Create a project in IDE
 2.	Write the code 
-	i. Create a WebDriver instance.
-	ii.	Navigate to a Web page (https://www.google.com).
-	iii.	Find the HTML element (search field, search button) on the Web page.
-	iv.	Perform an action on the found element (fill the field, click on button).
+	* Create a WebDriver instance.
+	* Navigate to a Web page (https://www.google.com).
+	* Find the HTML element (search field, search button) on the Web page.
+	* Perform an action on the found element (fill the field, click on button).
 3.	Run the program
 
 ##### Create a project in IDE 
@@ -90,9 +90,9 @@ Screenshot
 
 Firstly we need to create and instantiate a Firefox Driver object:
 
-```
+{% highlight java %}
 WebDriver driver = new FirefoxDriver();
-```
+{% endhighlight %}
 
 You will notice that `WebDriver` and `FirefoxDriver` will be in *red*. 
 
