@@ -17,7 +17,7 @@ This tutorial assumes you use Firefox, but it can be easily adapted to other bro
                                                                                                                                                                                       
 
 ##### Selenium
-Download Selenium for Java from here: [http://www.seleniumhq.org/download/](http://www.seleniumhq.org/download/)
+[Download Selenium for Java](http://www.seleniumhq.org/download/)
 
 Screenshot
 
@@ -25,7 +25,7 @@ Put it in a location you want Selenium to be and remember the location. The path
 
 
 ##### Geckodriver
-Downloaded GeckoDriver from here:	 https://github.com/mozilla/geckodriver/releases
+[Downloaded GeckoDriver](https://github.com/mozilla/geckodriver/releases)
 
  I put it in `C:\Windows` , because this path is in environment variables by default.
 Adding the path is necessary for Selenium to execute GeckoDriver, otherwise you will see the following error when you run the test:
@@ -39,16 +39,13 @@ Go to `Advanced` -> `Environmental Variables` -> `Path` -> Paste the path where 
 On Windows systems you can change the system path by right-clicking `My Computer` and choosing `Properties`. In the dialogue that appears, navigate `Advanced` -> `Environmental Variables `-> `Path`
 
 ##### IntelliJ IDEA IDE
-Download the community edition of IntelliJ IDEA IDE, which is free, from here and install it:
-https://www.jetbrains.com/idea/download/#section=windows
+[Download the community edition of IntelliJ IDEA IDE](https://www.jetbrains.com/idea/download/#section=windows), which is free.
 
 ##### Firefox
-Download Firefox from here: https://www.mozilla.org/en-US/firefox/new/
+[Download Firefox](https://www.mozilla.org/en-US/firefox/new/)
 
 
 It is recommended to have the last versions of all these components above for better compatibility.
-
-
 
 
 
@@ -59,15 +56,15 @@ It is recommended to have the last versions of all these components above for be
 The application opens the Firefox, navigates to https://www.google.com and searches for ‘weather in Chisinau’.
 
 There are a few steps we need to do to create our program: 
-1.	[Create a project in IDE](#create-ide-project)
+1.	Create a project in IDE
 2.	Write the code 
-i. Create a WebDriver instance.
-ii.	Navigate to a Web page (https://www.google.com).
-iii.	Find the HTML element (search field, search button) on the Web page.
-iv.	Perform an action on the found element (fill the field, click on button).
+	i. Create a WebDriver instance.
+	ii.	Navigate to a Web page (https://www.google.com).
+	iii.	Find the HTML element (search field, search button) on the Web page.
+	iv.	Perform an action on the found element (fill the field, click on button).
 3.	Run the program
 
-##### Create a project in IDE (#create-ide-project)
+##### Create a project in IDE 
 Click on `File tab` -> `New` -> `Project`
 
 Screenshot
@@ -93,7 +90,7 @@ Screenshot
 
 Firstly we need to create and instantiate a Firefox Driver object:
 
-```java
+```
 WebDriver driver = new FirefoxDriver();
 ```
 
