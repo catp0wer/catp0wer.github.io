@@ -53,13 +53,13 @@ It is recommended to have the last versions of all these components above for be
 
 
 ### The application 
-The application opens the Firefox, navigates to https://www.google.com and searches for ‘weather in Chisinau’.
+The application opens the Firefox, navigates to [https://www.google.com](https://www.google.com) and searches for ‘weather in Chisinau’.
 
 There are a few steps we need to do to create our program: 
 1.	Create a project in IDE
 2.	Write the code 
 	* Create a WebDriver instance.
-	* Navigate to a Web page (https://www.google.com).
+	* Navigate to a Web page [https://www.google.com](https://www.google.com).
 	* Find the HTML element (search field, search button) on the Web page.
 	* Perform an action on the found element (fill the field, click on button).
 3.	Run the program
@@ -108,9 +108,9 @@ Screenshot
 ###### Navigate to a Web site
 To navigate to a web site we use the get method in which we specify the URL we need:
 
-```java
+{% highlight java %}
 driver.get("http://www.google.com");
-```
+{% endhighlight %}
 
 ###### Inspect Element
 
@@ -132,9 +132,9 @@ Screenshot
 I choose to use the `name`, because it is shorter.
 To find the element we use the `findElement` method specifying by which `attribute` it should search.
 In our case it searches `by name` which should be equal to ‘q’. Also we use the `sendKeys` method which types in our editable field the value “weather in Chisinau”. 
-```java
+{% highlight java %}
 driver.findElement(By.name("q")).sendKeys("weather in Chisinau");
-```
+{% endhighlight %}
 
 To press the `Enter` key we also need to inspect button `Google Search` (the same procedure as above).
 
@@ -143,16 +143,16 @@ Screenshot
 
 To click on it we use the ```click``` method :
 
-```java
+{% highlight java %}
 driver.findElement(By.name("btnK")).click();
-```
+{% endhighlight %}
 
 
 
 In the end we can close the browser by using the ```close``` method:
-```java
+{% highlight java %}
 driver.close();
-```
+{% endhighlight %}
 
 ##### Run the program
 To run the program right-click on `Main class` and select `Run ‘Main’`.
@@ -166,7 +166,7 @@ This program is the simplest one which can serve as a base for more complicated 
 The starting point is initialization of Driver (`FirefoxDriver`, `ChromeDriver`, `InternetExplorerDriver`) and it depends on the browser you want to test on. After that you inspect the elements on the web page which you will interact with and locate them (`by` `name`, `id`, `XPath`, `CSS selector`) sending the command of interaction (fill, click, double click etc.). 
 
 The complete code of the program: 
-```java
+{% highlight java %}
 package com.company;
 
 import org.openqa.selenium.By;
@@ -184,4 +184,4 @@ public class Main {
         driver.close();
     }
 }
-```
+{% endhighlight %}
