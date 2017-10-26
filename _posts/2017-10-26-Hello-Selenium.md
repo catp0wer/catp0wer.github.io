@@ -19,6 +19,8 @@ This tutorial assumes you use Firefox, but it can be easily adapted to other bro
 ##### Selenium
 [Download Selenium for Java](http://www.seleniumhq.org/download/)
 
+![_config.yml]({{ site.baseurl }}/images/Selenium-weather1.png)
+
 Screenshot
 
 Put it in a location you want Selenium to be and remember the location. The path will be necessary when creating our project in IDE.
@@ -35,8 +37,16 @@ You can add your path by clicking on `My Computer` and selecting `Properties`.
 Go to `Advanced` -> `Environmental Variables` -> `Path` -> Paste the path where you put your Geckodriver exe.
 
 
-
 On Windows systems you can change the system path by right-clicking `My Computer` and choosing `Properties`. In the dialogue that appears, navigate `Advanced` -> `Environmental Variables `-> `Path`
+
+![_config.yml]({{ site.baseurl }}/images/Selenium-weather17.jpg)
+
+![_config.yml]({{ site.baseurl }}/images/Selenium-weather18.jpg)
+
+![_config.yml]({{ site.baseurl }}/images/Selenium-weather19.jpg)
+
+![_config.yml]({{ site.baseurl }}/images/Selenium-waether20.jpg)
+
 
 ##### IntelliJ IDEA IDE
 [Download the community edition of IntelliJ IDEA IDE](https://www.jetbrains.com/idea/download/#section=windows), which is free.
@@ -67,7 +77,7 @@ There are a few steps we need to do to create our program:
 ##### Create a project in IDE 
 Click on `File tab` -> `New` -> `Project`
 
-Screenshot
+![_config.yml]({{ site.baseurl }}/images/Selenium-weather2.png)
 
 Don’t select anything in Additional Libraries and Frameworks.
 
