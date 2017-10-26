@@ -109,14 +109,14 @@ WebDriver driver = new FirefoxDriver();
 You will notice that `WebDriver` and `FirefoxDriver` will be in *red*. 
 
 
-![_config.yml]({{ site.baseurl }}/images/Selenium-weather8.JPG){:height="300px" width="350px"}
+![_config.yml]({{ site.baseurl }}/images/Selenium-weather8.JPG){:height="300px" width="450px"}
 
 We need to import some classes. For this just right-click on `WebDriver` and press `Alt+Enter` and the class will be automatically imported.
 Do the same for `FirefoxDriver`.
 
-![_config.yml]({{ site.baseurl }}/images/Selenium-weather9.JPG){:height="200px" width="300px"}
+![_config.yml]({{ site.baseurl }}/images/Selenium-weather9.JPG){:height="200px" width="400px"}
 
-![_config.yml]({{ site.baseurl }}/images/Selenium-weather10.JPG){:height="200px" width="300px"}
+![_config.yml]({{ site.baseurl }}/images/Selenium-weather10.JPG){:height="200px" width="400px"}
 
 ###### Navigate to a Web site
 To navigate to a web site we use the `GET` method in which we specify the URL we need:
