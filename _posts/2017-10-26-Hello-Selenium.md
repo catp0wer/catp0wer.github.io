@@ -90,11 +90,11 @@ Enter the name of the project and project location.
 
 This is how an empty main class looks like – the entry point of every program:
 
-![_config.yml]({{ site.baseurl }}/images/Selenium-weather6.JPG){:height="300px" width="350px"}
+![_config.yml]({{ site.baseurl }}/images/Selenium-weather6.JPG){:height="300px" width="500px"}
 
 Now we need to add `Selenium libs` to be able to use it, go to `File` -> `Project Structure` -> `Modules` -> `Dependencies tab` -> Click on `Plus green` button -> Select `1 JARS or directories` -> Go to location where Selenium is downloaded and add all `.jar` files.
 
-![_config.yml]({{ site.baseurl }}/images/Selenium-weather7.PNG)
+![_config.yml]({{ site.baseurl }}/images/Selenium-weather7.PNG){:height="500px" width="400px"}
 
 ##### Write the code
 
