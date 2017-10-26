@@ -23,7 +23,7 @@ This tutorial assumes you use Firefox, but it can be easily adapted to other bro
 
 
 
-Put it in a location you want Selenium to be and remember the location. The path will be necessary when creating our project in IDE.
+Put it in a location you want Selenium to be and remember the location. The path will be necessary when creating our project in the IDE.
 
 
 ##### Geckodriver
@@ -33,11 +33,9 @@ Put it in a location you want Selenium to be and remember the location. The path
 Adding the path is necessary for Selenium to execute GeckoDriver, otherwise you will see the following error when you run the test:
 `‘X’ is not recognized as an internal or external command, operable program or batch file.`
 
-You can add your path by clicking on `My Computer` and selecting `Properties`. 
-Go to `Advanced` -> `Environmental Variables` -> `Path` -> Paste the path where you put your Geckodriver exe.
+You can add your path by right-clicking on `My Computer` and selecting `Properties`. 
+Go to `Advanced` -> `Environmental Variables` -> `Path` -> `Edit` -> Add the path where you put your `Geckodriver.exe`.
 
-
-On Windows systems you can change the system path by right-clicking `My Computer` and choosing `Properties`. In the dialogue that appears, navigate `Advanced` -> `Environmental Variables `-> `Path`
 
 ![_config.yml]({{ site.baseurl }}/images/Selenium-weather17.JPG)
 
@@ -45,7 +43,7 @@ On Windows systems you can change the system path by right-clicking `My Computer
 
 ![_config.yml]({{ site.baseurl }}/images/Selenium-weather19.JPG)
 
-![_config.yml]({{ site.baseurl }}/images/Selenium-waether20.JPG)
+![_config.yml]({{ site.baseurl }}/images/Selenium-waether21.JPG)
 
 
 ##### IntelliJ IDEA IDE
@@ -55,19 +53,20 @@ On Windows systems you can change the system path by right-clicking `My Computer
 [Download Firefox](https://www.mozilla.org/en-US/firefox/new/)
 
 
-It is recommended to have the last versions of all these components above for better compatibility.
+It is recommended to have the last versions of all these components above for better compatibility. However, this tutorial was tested with: ...
 
-
-
+ * Firefox 56.0.1
+ * Geckodriver - v0.19.0-win64
+ * Selenium -3.6.0
 
 
 
 
 ### The application 
-The application opens the Firefox, navigates to [https://www.google.com](https://www.google.com) and searches for ‘weather in Chisinau’.
+The application opens Firefox, navigates to [https://www.google.com](https://www.google.com) and searches for ‘weather in Chisinau’.
 
 There are a few steps we need to do to create our program: 
-1.	Create a project in IDE
+1.	Create a project in the IDE
 2.	Write the code 
 	* Create a WebDriver instance.
 	* Navigate to a Web page [https://www.google.com](https://www.google.com).
@@ -90,11 +89,11 @@ Enter the name of the project and project location.
 
 ![_config.yml]({{ site.baseurl }}/images/Selenium-weather5.PNG)
 
-This is how an empty main class looks like – the entry point of every program.
+This is how an empty main class looks like – the entry point of every program:
 
 ![_config.yml]({{ site.baseurl }}/images/Selenium-weather6.JPG)
 
-Now we need to add `Selenium libs` to be able to use it -> Go to `File` -> `Project Structure` -> `Modules` -> `Dependencies tab` -> Click on `Plus green` button -> Select `1 JARS or directories` -> Go to location where the Selenium is downloaded and add all `.jar` files.
+Now we need to add `Selenium libs` to be able to use it, go to `File` -> `Project Structure` -> `Modules` -> `Dependencies tab` -> Click on `Plus green` button -> Select `1 JARS or directories` -> Go to location where Selenium is downloaded and add all `.jar` files.
 
 ![_config.yml]({{ site.baseurl }}/images/Selenium-weather7.PNG)
 
@@ -121,7 +120,7 @@ Do the same for `FirefoxDriver`.
 ![_config.yml]({{ site.baseurl }}/images/Selenium-weather10.JPG)
 
 ###### Navigate to a Web site
-To navigate to a web site we use the get method in which we specify the URL we need:
+To navigate to a web site we use the `GET` method in which we specify the URL we need:
 
 {% highlight java %}
 driver.get("http://www.google.com");
@@ -146,17 +145,17 @@ In the code which is highlighted we can extract the `name` or the `id` which ide
 
 I choose to use the `name`, because it is shorter.
 To find the element we use the `findElement` method specifying by which `attribute` it should search.
-In our case it searches `by name` which should be equal to ‘q’. Also we use the `sendKeys` method which types in our editable field the value “weather in Chisinau”. 
+In our case it searches by `name` which should be equal to `q`. Also we use the `sendKeys` method which types in our editable field the value “weather in Chisinau”. 
 {% highlight java %}
 driver.findElement(By.name("q")).sendKeys("weather in Chisinau");
 {% endhighlight %}
 
-To press the `Enter` key we also need to inspect button `Google Search` (the same procedure as above).
+To press the `Enter` key we also need to inspect the `Google Search` button (the same procedure as above).
 
 ![_config.yml]({{ site.baseurl }}/images/Selenium-weather14.PNG)
 
 
-To click on it we use the ```click``` method :
+To click it we use the ```click``` method :
 
 {% highlight java %}
 driver.findElement(By.name("btnK")).click();
@@ -171,7 +170,7 @@ driver.close();
 
 ##### Run the program
 To run the program right-click on `Main class` and select `Run ‘Main’`.
-Or you can go to Run tab in the IDE and select `Run ‘Main’`.
+Or you can go to the `Run` tab in the IDE and select `Run ‘Main’`.
 
 
 ![_config.yml]({{ site.baseurl }}/images/Selenium-weather15.PNG)
@@ -180,7 +179,7 @@ Or you can go to Run tab in the IDE and select `Run ‘Main’`.
 
 ##### Summary
 This program is the simplest one which can serve as a base for more complicated scenarios. 
-The starting point is initialization of Driver (`FirefoxDriver`, `ChromeDriver`, `InternetExplorerDriver`) and it depends on the browser you want to test on. After that you inspect the elements on the web page which you will interact with and locate them (`by` `name`, `id`, `XPath`, `CSS selector`) sending the command of interaction (fill, click, double click etc.). 
+The starting point is initialization of Driver (`FirefoxDriver`, `ChromeDriver`, `InternetExplorerDriver`) and it depends on the browser you want to test on. After that you inspect the elements on the web page which you will interact with and locate them (by `name`, `id`, `XPath`, `CSS selector`) sending the command of interaction (fill, click, double click etc.). 
 
 The complete code of the program: 
 {% highlight java %}
