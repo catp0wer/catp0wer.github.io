@@ -17,7 +17,7 @@ This tutorial assumes you use Firefox, but it can be easily adapted to other bro
                                                                                                                                                                                       
 
 ##### Selenium
-Download Selenium for Java from here: http://www.seleniumhq.org/download/
+Download Selenium for Java from here: <http://www.seleniumhq.org/download/>
 
 Screenshot
 
