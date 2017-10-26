@@ -15,3 +15,10 @@ The following components are required:
 
 This tutorial assumes you use Firefox, but it can be easily adapted to other browsers.
                                                                                                                                                                                       
+
+##### Selenium
+Download Selenium for Java from here: http://www.seleniumhq.org/download/
+
+Screenshot
+
+Put it in a location you want Selenium to be and remember the location. The path will be necessary when creating our project in IDE.
