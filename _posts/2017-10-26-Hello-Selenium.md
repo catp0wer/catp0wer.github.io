@@ -37,11 +37,11 @@ You can add your path by right-clicking on `My Computer` and selecting `Properti
 Go to `Advanced` -> `Environmental Variables` -> `Path` -> `Edit` -> Add the path where you put your `Geckodriver.exe`.
 
 
-![_config.yml]({{ site.baseurl }}/images/Selenium-weather17.JPG)
+![_config.yml]({{ site.baseurl }}/images/Selenium-weather17.JPG){:height="250px" width="250px"}
 
 ![_config.yml]({{ site.baseurl }}/images/Seleniu-weather18.JPG)
 
-![_config.yml]({{ site.baseurl }}/images/Selenium-weather19.JPG)
+![_config.yml]({{ site.baseurl }}/images/Selenium-weather19.JPG){:height="250px" width="250px"}
 
 
 
