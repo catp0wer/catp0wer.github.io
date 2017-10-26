@@ -80,17 +80,17 @@ Click on `File tab` -> `New` -> `Project`
 
 Don’t select anything in Additional Libraries and Frameworks.
 
-![_config.yml]({{ site.baseurl }}/images/Selenium-weather3.PNG)
+![_config.yml]({{ site.baseurl }}/images/Selenium-weather3.PNG){:height="300px" width="350px"}
 
-![_config.yml]({{ site.baseurl }}/images/Selenium-weather4.PNG)
+![_config.yml]({{ site.baseurl }}/images/Selenium-weather4.PNG){:height="300px" width="350px"}
 
 Enter the name of the project and project location.
 
-![_config.yml]({{ site.baseurl }}/images/Selenium-weather5.PNG)
+![_config.yml]({{ site.baseurl }}/images/Selenium-weather5.PNG){:height="300px" width="350px"}
 
 This is how an empty main class looks like – the entry point of every program:
 
-![_config.yml]({{ site.baseurl }}/images/Selenium-weather6.JPG)
+![_config.yml]({{ site.baseurl }}/images/Selenium-weather6.JPG){:height="300px" width="350px"}
 
 Now we need to add `Selenium libs` to be able to use it, go to `File` -> `Project Structure` -> `Modules` -> `Dependencies tab` -> Click on `Plus green` button -> Select `1 JARS or directories` -> Go to location where Selenium is downloaded and add all `.jar` files.
 
