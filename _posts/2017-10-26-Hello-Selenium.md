@@ -33,7 +33,7 @@ Put it in a location you want Selenium to be and remember the location. The path
 Adding the path is necessary for Selenium to execute GeckoDriver, otherwise you will see the following error when you run the test:
 `‘X’ is not recognized as an internal or external command, operable program or batch file.`
 
-You can add your path by right-clicking on `My Computer` and selecting `Properties`. 
+If you want to use a custom path you can do so by right-clicking on `My Computer` and selecting `Properties`. 
 Go to `Advanced` -> `Environmental Variables` -> `Path` -> `Edit` -> Add the path where you put your `Geckodriver.exe`.
 
 
@@ -176,6 +176,9 @@ Or you can go to the `Run` tab in the IDE and select `Run ‘Main’`.
 
 ![_config.yml]({{ site.baseurl }}/images/Selenium-weather16.PNG)
 
+If you did everything correctly it should look like this ([high resolution version](https://raw.githubusercontent.com/catp0wer/catp0wer.github.io/master/images/Selenium-weather_video.gif)):
+![_config.yml]({{ site.baseurl }}/images/Selenium-weather_video.gif){:height="400px" width="600px"}
+
 ##### Summary
 This program is the simplest one which can serve as a base for more complicated scenarios. 
 The starting point is initialization of Driver (`FirefoxDriver`, `ChromeDriver`, `InternetExplorerDriver`) and it depends on the browser you want to test on. After that you inspect the elements on the web page which you will interact with and locate them (by `name`, `id`, `XPath`, `CSS selector`) sending the command of interaction (fill, click, double click etc.). 
@@ -200,3 +203,9 @@ public class Main {
     }
 }
 {% endhighlight %}
+
+
+
+
+
+
