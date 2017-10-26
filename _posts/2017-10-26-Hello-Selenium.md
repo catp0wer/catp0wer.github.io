@@ -142,7 +142,7 @@ In the code which is highlighted we can extract the `name` or the `id` which ide
 
 ![_config.yml]({{ site.baseurl }}/images/Selenium-weather13.JPG)
 
-I choose to use the `name`, because it is shorter.
+I choose to use the `name`, because it is shorter :).
 To find the element we use the `findElement` method specifying by which `attribute` it should search.
 In our case it searches by `name` which should be equal to `q`. Also we use the `sendKeys` method which types in our editable field the value “weather in Chisinau”. 
 {% highlight java %}
@@ -177,7 +177,10 @@ Or you can go to the `Run` tab in the IDE and select `Run ‘Main’`.
 ![_config.yml]({{ site.baseurl }}/images/Selenium-weather16.PNG)
 
 If you did everything correctly it should look like this ([high resolution version](https://raw.githubusercontent.com/catp0wer/catp0wer.github.io/master/images/Selenium-weather_video.gif)):
-![_config.yml]({{ site.baseurl }}/images/Selenium-weather_video.gif){:height="400px" width="600px"}
+ 
+![_config.yml]({{ site.baseurl }}/images/Selenium-weather_video.gif){:height="360px" width="600px"}
+
+Note that in my case Google redirects me automatically to `google.se`, even though the code says `google.com`. In your case it might me something different ;-)
 
 ##### Summary
 This program is the simplest one which can serve as a base for more complicated scenarios. 
