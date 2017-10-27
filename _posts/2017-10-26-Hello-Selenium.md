@@ -111,8 +111,12 @@ You will notice that `WebDriver` and `FirefoxDriver` will be in *red*.
 
 ![_config.yml]({{ site.baseurl }}/images/Selenium-weather8.JPG){:height="300px" width="600px"}
 
-We need to import some classes. For this just right-click on `WebDriver` and press `Alt+Enter` and the class will be automatically imported.
-Do the same for `FirefoxDriver`.
+We need to import some classes. For this, just right-click on `WebDriver` and press `Alt+Enter` and the class will be automatically imported. Do the same for `FirefoxDriver`. If the auto-import feature of the IDE doesn't work reliably, import these modules yourself by adding this to your code:
+
+```
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+```
 
 ![_config.yml]({{ site.baseurl }}/images/Selenium-weather9.JPG){:height="200px" width="400px"}
 
