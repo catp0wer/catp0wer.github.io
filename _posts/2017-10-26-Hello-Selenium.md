@@ -39,7 +39,7 @@ Go to `Advanced` -> `Environmental Variables` -> `Path` -> `Edit` -> Add the pat
 
 ![_config.yml]({{ site.baseurl }}/images/Selenium-weather17.JPG){:height="250px" width="250px"}
 
-![_config.yml]({{ site.baseurl }}/images/Seleniu-weather18.JPG)
+![_config.yml]({{ site.baseurl }}/images/Seleniu-weather18.JPG){:height="250px" width="500px"}
 
 ![_config.yml]({{ site.baseurl }}/images/Selenium-weather19.JPG){:height="300px" width="300px"}
 
@@ -113,10 +113,10 @@ You will notice that `WebDriver` and `FirefoxDriver` will be in *red*.
 
 We need to import some classes. For this, just right-click on `WebDriver` and press `Alt+Enter` and the class will be automatically imported. Do the same for `FirefoxDriver`. If the auto-import feature of the IDE doesn't work reliably, import these modules yourself by adding this to your code:
 
-```
+{% highlight java %}
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-```
+{% endhighlight %}
 
 ![_config.yml]({{ site.baseurl }}/images/Selenium-weather9.JPG){:height="200px" width="400px"}
 
