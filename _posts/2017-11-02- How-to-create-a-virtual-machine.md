@@ -1,4 +1,7 @@
-How to create a Virtual machine
+---
+layout: post
+title: How to create a Virtual machine
+---
 
 I remember an incident at work a few years ago, we needed a VM urgently, to test a web page on a different version of IE.
 My colleague volunteered for creating this VM, and I thought then - "Wow, he knows how to do this, he's a guru!". 
