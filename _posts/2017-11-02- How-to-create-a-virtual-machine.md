@@ -86,7 +86,7 @@ Click on `Install Ubuntu` -> Check the `Download updates while installing Ubuntu
 
 ![_config.yml]({{ site.baseurl }}/images/VM18.PNG){:height="400px" width="500px"}
 
-![_config.yml]({{ site.baseurl }}/images/VM19.PNG){:height="400px" width="500px"}
+![_config.yml]({{ site.baseurl }}/images/VM19.png){:height="400px" width="500px"}
 
 ![_config.yml]({{ site.baseurl }}/images/VM20.PNG){:height="400px" width="500px"}
 
