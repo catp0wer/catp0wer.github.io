@@ -52,26 +52,26 @@ Open `VirtualBox` -> Click on `New` icon -> In the new window enter the `Name` o
 *Memory*
 Allocate the `RAM` for your `VM`. It will be used only when the VM is running, otherwise this memory is given back to your system. When choosing the amount of memory, consult the recommended requirements for your OS of choice.
 
-![_config.yml]({{ site.baseurl }}/images/VM11.PNG){:height="300px" width="300px"}
+![_config.yml]({{ site.baseurl }}/images/VM11.PNG){:height="400px" width="400px"}
 
 *Hard disk file type*
 Leave the default option `Create a virtual hard disk now`.
 
-![_config.yml]({{ site.baseurl }}/images/VM12.PNG){:height="300px" width="300px"}
+![_config.yml]({{ site.baseurl }}/images/VM12.PNG){:height="400px" width="400px"}
 
 *Storage on physical hard disk*
 Select `Dynamically allocated` for more flexible storage management. This means that initially the virtual disk will have a small size and it will expand once something is written to it (up to the allocated space). Otherwise, if you choose `Fixed storage`, the entire space will be allocated right away and taken from your host (i.e. real computer), even if the VM doesn't use it yet.  
 
 I selected the `Dynamically allocated` option.
 
-![_config.yml]({{ site.baseurl }}/images/VM13.PNG){:height="300px" width="300px"}
+![_config.yml]({{ site.baseurl }}/images/VM13.PNG){:height="400px" width="400px"}
 
 
 *File location and size*
 
 Choose the `location` you want your VM be stored in and the `size` of the `virtual hard drive`. Consult your guest OS recommended requirements when choosing the disk size.
 
-![_config.yml]({{ site.baseurl }}/images/VM14.PNG){:height="300px" width="300px"}
+![_config.yml]({{ site.baseurl }}/images/VM14.PNG){:height="400px" width="400px"}
 
 
 ##### Installing the guest OS
@@ -80,7 +80,7 @@ Open `VirtualBox` -> Select your `VM` -> Go to `Settings` -> Select `Storage` ->
 
 ![_config.yml]({{ site.baseurl }}/images/VM16.PNG)
 
-![_config.yml]({{ site.baseurl }}/images/VM17.PNG){:height="400px" width="450px"}
+![_config.yml]({{ site.baseurl }}/images/VM17.PNG){:height="400px" width="500px"}
 
 Click on `Install Ubuntu` -> Check the `Download updates while installing Ubuntu` checkbox -> Click on the `Continue` button ->  Check the 'Erase disk and install `Ubuntu` radiobutton -> Click `Continue`.
 
