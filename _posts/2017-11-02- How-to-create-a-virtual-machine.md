@@ -84,18 +84,16 @@ Open `VirtualBox` -> Select your `VM` -> Go to `Settings` -> Select `Storage` ->
 
 Click on `Install Ubuntu` -> Check the `Download updates while installing Ubuntu` checkbox -> Click on the `Continue` button ->  Check the 'Erase disk and install `Ubuntu` radiobutton -> Click `Continue`.
 
-![_config.yml]({{ site.baseurl }}/images/VM18.PNG)
+![_config.yml]({{ site.baseurl }}/images/VM18.PNG){:height="400px" width="500px"}
 
-![_config.yml]({{ site.baseurl }}/images/VM19.PNG)
+![_config.yml]({{ site.baseurl }}/images/VM19.PNG){:height="400px" width="500px"}
 
-![_config.yml]({{ site.baseurl }}/images/VM20.PNG)
+![_config.yml]({{ site.baseurl }}/images/VM20.PNG){:height="400px" width="500px"}
 
-![_config.yml]({{ site.baseurl }}/images/VM21.PNG)
+![_config.yml]({{ site.baseurl }}/images/VM21.PNG){:height="400px" width="500px"}
 
 
 Follow the steps of the installation wizard, you can leave the default values unchanged or adjust them as you see fit. These details are beyond the scope of the tutorial.
-
-![_config.yml]({{ site.baseurl }}/images/VM22.PNG)
 
 
 
