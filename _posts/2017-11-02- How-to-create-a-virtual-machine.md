@@ -35,8 +35,7 @@ By the time you're done with this tutorial, you will be able to:
 ##### VirtualBox
 1. [Download VirtualBox](https://www.virtualbox.org/wiki/Downloads) and install it. It is a free and open-source program.
 
-Screenshot VM1
-
+![_config.yml]({{ site.baseurl }}/images/VM1.PNG)
 
 2. Install VirtualBox extension pack, which extends the functionality of the VirtualBox; for example it provides the USB functionality.
 
@@ -48,47 +47,55 @@ Screenshot VM1
 *Name and OS*
 Open `VirtualBox` -> Click on `New` icon -> In the new window enter the `Name` of your VM (it can be anything, as long as it helps you remember what this VM is for later; this is especially relevant if you have multiple virtual machines)-> Select the `Type` of operating system you want to install on your VM (in the previous step we downloaded it).
 
-Screenshot VM10
+![_config.yml]({{ site.baseurl }}/images/VM10.PNG)
 
 *Memory*
 Allocate the `RAM` for your `VM`. It will be used only when the VM is running, otherwise this memory is given back to your system. When choosing the amount of memory, consult the recommended requirements for your OS of choice.
 
-Screenshot VM11
+![_config.yml]({{ site.baseurl }}/images/VM11.PNG)
 
 *Hard disk file type*
 Leave the default option `Create a virtual hard disk now`.
 
-Screenshot VM12
+![_config.yml]({{ site.baseurl }}/images/VM12.PNG)
 
 *Storage on physical hard disk*
 Select `Dynamically allocated` for more flexible storage management. This means that initially the virtual disk will have a small size and it will expand once something is written to it (up to the allocated space). Otherwise, if you choose `Fixed storage`, the entire space will be allocated right away and taken from your host (i.e. real computer), even if the VM doesn't use it yet.  
 
 I selected the `Dynamically allocated` option.
 
-Screenshot VM13
+![_config.yml]({{ site.baseurl }}/images/VM13.PNG)
 
 
 *File location and size*
 
 Choose the `location` you want your VM be stored in and the `size` of the `virtual hard drive`. Consult your guest OS recommended requirements when choosing the disk size.
 
-Screenshot VM14
+![_config.yml]({{ site.baseurl }}/images/VM14.PNG)
 
 
 ##### Installing the guest OS
 
 Open `VirtualBox` -> Select your `VM` -> Go to `Settings` -> Select `Storage` -> Add the virtual disk into the CDROM (you downloaded your OS previously)->  Click `Start` to power on the virtual machine.
 
-Screenshot VM16
-Screenshot VM17
+![_config.yml]({{ site.baseurl }}/images/VM16.PNG)
+
+![_config.yml]({{ site.baseurl }}/images/VM17.PNG)
 
 Click on `Install Ubuntu` -> Check the `Download updates while installing Ubuntu` checkbox -> Click on the `Continue` button ->  Check the 'Erase disk and install `Ubuntu` radiobutton -> Click `Continue`.
 
-Screenshots 18, 19,20,21
+![_config.yml]({{ site.baseurl }}/images/VM18.PNG)
+
+![_config.yml]({{ site.baseurl }}/images/VM19.PNG)
+
+![_config.yml]({{ site.baseurl }}/images/VM20.PNG)
+
+![_config.yml]({{ site.baseurl }}/images/VM21.PNG)
+
 
 Follow the steps of the installation wizard, you can leave the default values unchanged or adjust them as you see fit. These details are beyond the scope of the tutorial.
 
-Screenshot 22
+![_config.yml]({{ site.baseurl }}/images/VM22.PNG)
 
 
 
