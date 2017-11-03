@@ -21,10 +21,3 @@ I choose to learn by explaining.
 >              *William Glasser*  
 
 
-
-ghjkl
-
-
-> dfghj
->
-> jhhh
