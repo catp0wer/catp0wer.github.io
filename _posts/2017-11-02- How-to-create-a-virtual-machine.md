@@ -59,6 +59,8 @@ Allocate the `RAM` for your `VM`. It will be used only when the VM is running, o
 ![_config.yml]({{ site.baseurl }}/images/VM11.PNG){:height="400px" width="400px"}
 
 *Hard disk file type*
+
+
 Leave the default option `Create a virtual hard disk now`.
 
 ![_config.yml]({{ site.baseurl }}/images/VM12.PNG){:height="400px" width="400px"}
