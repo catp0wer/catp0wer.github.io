@@ -18,4 +18,13 @@ I choose to learn by explaining.
 > 70% of what we discuss  
 > 80% of what we experience  
 > 95% of what we teach others.  
->              William Glasser  
+>              *William Glasser*  
+
+
+
+ghjkl
+
+
+> dfghj
+>
+> jhhh
