@@ -45,11 +45,15 @@ By the time you're done with this tutorial, you will be able to:
 4. Set up your VM
 
 *Name and OS*
+
+
 Open `VirtualBox` -> Click on `New` icon -> In the new window enter the `Name` of your VM (it can be anything, as long as it helps you remember what this VM is for later; this is especially relevant if you have multiple virtual machines)-> Select the `Type` of operating system you want to install on your VM (in the previous step we downloaded it).
 
 ![_config.yml]({{ site.baseurl }}/images/VM10.PNG){:height="350px" width="500px"}
 
 *Memory*
+
+
 Allocate the `RAM` for your `VM`. It will be used only when the VM is running, otherwise this memory is given back to your system. When choosing the amount of memory, consult the recommended requirements for your OS of choice.
 
 ![_config.yml]({{ site.baseurl }}/images/VM11.PNG){:height="400px" width="400px"}
@@ -60,6 +64,8 @@ Leave the default option `Create a virtual hard disk now`.
 ![_config.yml]({{ site.baseurl }}/images/VM12.PNG){:height="400px" width="400px"}
 
 *Storage on physical hard disk*
+
+
 Select `Dynamically allocated` for more flexible storage management. This means that initially the virtual disk will have a small size and it will expand once something is written to it (up to the allocated space). Otherwise, if you choose `Fixed storage`, the entire space will be allocated right away and taken from your host (i.e. real computer), even if the VM doesn't use it yet.  
 
 I selected the `Dynamically allocated` option.
@@ -68,6 +74,7 @@ I selected the `Dynamically allocated` option.
 
 
 *File location and size*
+
 
 Choose the `location` you want your VM be stored in and the `size` of the `virtual hard drive`. Consult your guest OS recommended requirements when choosing the disk size.
 
